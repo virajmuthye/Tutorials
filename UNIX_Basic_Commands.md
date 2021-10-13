@@ -1,7 +1,30 @@
-# Let's learn some UNIX!
+# Let's learn some Linux!
 ## This is a very basic tutorial. If you have any suggestions or questions, please email me at virajrajendra.muthye@ucalgary.ca
+## A lot of this information has been taken from a tutorial provided by Kaylee Rich in the Wasmuth Lab at the University of Calgary.
 
 ## Let's begin!
+
+A few things to know before you begin-
+In Linux, a "folder" is called a "directory".
+A "path" to the directory tells you the location of that directory. 
+Every file and directory has a path, which you can navigate through various commands.
+
+This is how the file system is set up-
+
+Let's take a look at this folder "work/wasmuth_lab/viraj/mimicry"
+work/
+    ---wasmuth_lab/
+        ---viraj/
+          ----mimicry/ 
+
+The "absolute path" of the folder "mimicry" is "work/wasmuth_lab/viraj/mimicry".
+Absolute paths are quite useful!
+No matter where you are on ARC, you can reach this folder by typing "cd /work/wasmuth_lab/viraj/mimicry"
+
+You do not always have to use absolute paths.
+Sometimes you would prefer a "relative" path.
+A "relative" path is a path that tells you how to go to a folder from where you are in the file system.
+For instance, if you are in the folder "wasmuth_lab", you can go to the "mimicry" folder by typing "cd viraj/mimicry".
 
 ```markdown
 Using these commands, a user would be able to :
@@ -35,6 +58,7 @@ Let's say you are in the folder /work/wasmuth_lab
 	
 	3. To go to /work/wasmuth_lab/viraj/mimicry      :  cd /work/wasmuth_lab/viraj/mimicry
 	
+	
 ## Now, find a folder and lets start copying stuff!
 ## 2. cp
 ### The cp command copies files and directories.
@@ -56,9 +80,9 @@ There are three files in the folder : 1] trial.txt, 2] tutorial.txt, 3] species.
 
 	1. To make a copy of the file "trial.txt" in the same folder	     	: cp trial.txt trial2.txt
 	
-	2. To make a copy of the file "trial.txt" in the folder /bin/lavrov/ 	: cp trial.txt /bin/lavrov/.
+	2. To make a copy of the file "trial.txt" in the folder /work/wasmuth_lab/viraj/mimicry	: cp trial.txt /work/wasmuth_lab/viraj/mimicry.
 	
-	3. To copy all files with the extension *.txt to folder /bin/lavrov/	: cp *.txt /bin/lavrov/.
+	3. To copy all files with the extension *.txt to folder /work/wasmuth_lab/viraj/mimicry	: cp *.txt /work/wasmuth_lab/viraj/mimicry.
 	
 
 ## Now, how would you know what all is there in this folder?
