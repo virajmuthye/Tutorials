@@ -1,5 +1,7 @@
-# Basic UNIX commands
-Here, I have listed some basic UNIX commands. I believe these should suffice for using Trinity for assembling the transcriptome.
+# Let's learn some UNIX!
+## This is a very basic tutorial. If you have any suggestions or questions, please email me at virajrajendra.muthye@ucalgary.ca
+
+## Let's begin!
 
 ```markdown
 Using these commands, a user would be able to :
@@ -9,6 +11,9 @@ Using these commands, a user would be able to :
 	Copy/delete/move files if needed from one directory to another
 	Concatanate reads from multiple files into one file
 ```
+
+## First, take a look at where you are in the maze of directories on ARC
+## Type "pwd" and see what happens!
 
 ## 1. cd
 ### The cd command changes the current (working) directory.
@@ -22,18 +27,15 @@ cd ..		Moves up one directory
 
 e.g.
 
-Let's say you are in the folder /home/viraj/
+Let's say you are in the folder /work/wasmuth_lab
 
-	1. To go to /home/viraj/trial :  cd trial
+	1. To go to /work/wasmuth_lab/trial :  cd trial
 	
 	2. To go to /home	      :  cd ..
 	
-	3. To go to /bin/lavrov/      :  cd /bin/lavrov/
+	3. To go to /work/wasmuth_lab/viraj/mimicry      :  cd /work/wasmuth_lab/viraj/mimicry
 	
-
-
-
-
+## Now, find a folder and lets start copying stuff!
 ## 2. cp
 ### The cp command copies files and directories.
 
@@ -48,9 +50,9 @@ cp *.fasta dest-dir         	Copies all files with a fasta extension into the de
 
 e.g.
 
-Let's say you are in the folder /home/viraj/
+Let's say you are in the folder work/wasmuth_lab/trial
 
-There is three files in the folder : 1] trial.txt, 2] tutorial.txt, 3] species.fasta
+There are three files in the folder : 1] trial.txt, 2] tutorial.txt, 3] species.fasta
 
 	1. To make a copy of the file "trial.txt" in the same folder	     	: cp trial.txt trial2.txt
 	
@@ -59,8 +61,7 @@ There is three files in the folder : 1] trial.txt, 2] tutorial.txt, 3] species.f
 	3. To copy all files with the extension *.txt to folder /bin/lavrov/	: cp *.txt /bin/lavrov/.
 	
 
-
-
+## Now, how would you know what all is there in this folder?
 ## 3. ls
 ### The ls command lists directory contents.
 
@@ -69,7 +70,7 @@ Command			Effect
 ls			Lists the contents of the current working directory.
 ```
 
-
+## Enough copying, let's now CREATE a directory!
 ## 4. mkdir
 ### The mkdir command makes (i.e. creates) a new directory.
 
@@ -78,9 +79,11 @@ Command			Effect
 mkdir foo		Creates a new directory named foo.
 ```
 
+Make a folder with any name of your choice.
+But!
+Be careful of how you name directories and files. Avoid spaces in file and directory names.
 
-
-## 5. mv
+ ## 5. mv
 ### The mv command moves or renames files and directories.
 
 ```markdown
