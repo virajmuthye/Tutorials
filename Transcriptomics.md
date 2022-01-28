@@ -1,13 +1,12 @@
 # Download SRA files
 
-
 # Process SRA reads
-## fastqc
+### fastqc
 
 # Assemble the transcriptome
-## Genome-guided
+### Genome-guided
 
-## De novo
+### De novo
 
 # Map reads back to the transcriptome
 
