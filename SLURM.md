@@ -51,7 +51,7 @@ The status of the job is under the column "ST". If it says "R" it means that the
 If you give the command "squeue rida.mahmood1" and do not see a job in the list, then either the job as finished or there was an error.
 If there was an error in running the script, you should see it in the "job.error" file.
 
-The results will be in the file "all_control.db.pep.pfal.results"
+The results will be in the file "tutorial.results"
 
 ### Answer the following questions
 1. Did you get any emails from ARC? What information was in those emails?
