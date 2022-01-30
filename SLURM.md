@@ -40,7 +40,7 @@ In case you need to track or delete your job, you will need it.
 
 ### Step 5. Run the SLURM comman
 ```markdown
-squeue rida.mahmood1	
+squeue -u rida.mahmood1	
 ```
 
 Now, you should be able to see the JOB ID and the status of the job.
@@ -48,10 +48,11 @@ The status of the job is under the column "ST". If it says "R" it means that the
 	
 ### Wait for the job to finish.
 
-If you give the command "squeue rida.mahmood1" and do not see a job in the list, then either the job as finished or there was an error.
+Give the command "squeue -u rida.mahmood1".
+If do not see a job in the list, then either the job as finished or there was an error.
+If the job has finished, you should see the results in the file "tutorial.results".
 If there was an error in running the script, you should see it in the "job.error" file.
 
-The results will be in the file "tutorial.results"
 
 ### Answer the following questions
 1. Did you get any emails from ARC? What information was in those emails?
