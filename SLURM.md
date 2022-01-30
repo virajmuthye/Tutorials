@@ -15,7 +15,8 @@ scancel - delete a job.
 squeue - show state of jobs.
 
 You will use SLURM to do most of your work for this project. 
-In this tutorial you will  submit your first SLURM job.
+In this tutorial you will submit your first SLURM job.
+In this example, you will be using BlastP - a software that you will use later in the project! 
 
 ### Step 1. Log in to ARC
 
@@ -52,8 +53,7 @@ If there was an error in running the script, you should see it in the "job.error
 
 The results will be in the file "all_control.db.pep.pfal.results"
 
-Answer the following questions
-------------------------------
+### Answer the following questions
 1. Did you get any emails from ARC? What information was in those emails?
 
 2. Aftering submitting the job, what was the ID? How can you find out the JOB ID?
@@ -61,5 +61,8 @@ Answer the following questions
 3. After the job finishes running, check the contents of the "job.error" and "job.output" files.
 
 4. Can you change the time requested to one hour and run the script again?
+
+
+
 
 
