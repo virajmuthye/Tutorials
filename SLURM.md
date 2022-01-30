@@ -21,7 +21,7 @@ In this tutorial you will  submit your first SLURM job.
 
 ### Step 2. Navigate to /work/wasmuth_lab/rida
 
-### Step 3. Copy all files from /work/wasmuth_lab/viraj/slurm_tutorial in this directory
+### Step 3. Copy all files from /work/wasmuth_lab/viraj/slurm_tutorial
 
 ### Step 4. Run the SLURM job 
 ```markdown
