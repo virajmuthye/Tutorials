@@ -29,7 +29,7 @@ In this tutorial you will  submit your first SLURM job.
 You should see this line on the terminal 
 
 ```markdown
-     Submitted batch job <JOB ID>"
+     Submitted batch job <JOB ID>
 ```
 
 This is the JOB ID. 
