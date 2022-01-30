@@ -25,7 +25,8 @@ In this tutorial you will  submit your first SLURM job.
 ```markdown
 	 sbatch blastp.slurm
 ```
-	You should see this line on the terminal 
+
+You should see this line on the terminal 
   ```markdown
      Submitted batch job <JOB ID>"
 	```  
