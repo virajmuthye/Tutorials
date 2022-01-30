@@ -5,6 +5,7 @@ ARC cluster is a collection of several compute nodes connected by a high-speed n
 The job scheduling system on ARC is called SLURM.
 
 Take a look at SLURM basics here:https://researchit.las.iastate.edu/slurm-basics
+
 Take a look at ARC basics here:https://rcs.ucalgary.ca/ARC_Cluster_Guide#How_to_interact_with_ARC
 
 ### Main Slurm Commands
