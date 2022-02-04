@@ -35,12 +35,9 @@ right reads : SRR1557039_2_trimmomatic.fastq
 trinity SLURM job script: trinity_rida.slurm
 ```
 
-**Now, check out the trinity_rida.slurm.** 
+**Now, check out the file - "trinity_rida.slurm". What changes do you need to make?**
 
-**What changes do you need to make?**
-
-**Once you have made the changes, message me the script on slack!**
-
+**Make the changes. Once you have made the changes, message me the script on slack!**
 
 **Now, after checking with me, submit the SLURM job script.**
 
