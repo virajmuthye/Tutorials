@@ -1,6 +1,6 @@
 ## Let's assemble a transcriptome!
 
-**Create a directory in your work directory (/work/wasmuth_lab/rida) called trinit*
+**Create a directory in your work directory (/work/wasmuth_lab/rida) called "trinity"**
 **Go inside that folder**
 **Type the following commands to install Trinity**
 
