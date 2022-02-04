@@ -1,16 +1,31 @@
-# Download SRA files
+## Download Trinity
 
-# Process SRA reads
-### fastqc
+### Create a directory in your work directory (/work/wasmuth_lab/rida) called trinity
+### Go inside that folder
 
-# Assemble the transcriptome
-### Genome-guided
+### Type the following commands to install Trinity
 
-### De novo
+```markdown
+module load bioconda/conda3
+conda create -n trinity
+source activate trinity
+conda install -c bioconda trinity
+```
 
-# Map reads back to the transcriptome
+### Wait for the commands to run.
+### Then type the following command-
 
-# Annotate the transcriptome
+```markdown
+source deactivate trinity
+```
 
-# Calculate transcriptome statistics
+### Congratulations! You have now installed Trinity :)
+
+### Next, copy the following files from "/work/wasmuth_lab/viraj/trinity_tutorial"
+
+```markdown
+left reads : SRR1557039_1_trimmomatic.fastq
+right reads : SRR1557039_2_trimmomatic.fastq
+trinity SLURM job script: trinity_rida.slurm
+```
 
